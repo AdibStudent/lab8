@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Sans-Serif;
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+input[type='submit'] {
+    padding: 10px 25px;
+    background-color: #0067ab;
+    border: 1px solid #0164a5;
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover {
+    background-color: #024978;
+}
